@@ -1,0 +1,54 @@
+.email-card-container {
+    padding: 20px 0;
+    /* margin: 0;
+    border: 1px solid white; */
+}
+
+.email-logo {
+    width: 77px !important;
+    height: 28px !important;
+    overflow: hidden;
+    text-align: center !important;
+    background-color: black !important;
+    color: white !important;
+    border-radius: 8px;
+    padding: 2px 5px;
+}
+
+.email-logo i {
+    margin: 4px;
+}
+
+.email-logo p {
+    margin-top: 2px;
+    font-size: 15px;
+    color:white
+}
+
+.supplier-updates-container {
+    display: flex;
+    padding: 35px 8px;
+}
+
+.supplier-updates h4 {
+    font-style: normal;
+    letter-spacing: .01em;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+}
+
+p,
+a {
+    font-size: 15px;
+    font-weight: 400;
+    color: black;
+}
+
+.receieved-date-time {
+    text-align: end;
+}
+
+.receieved-date-time p {
+    margin: 0;
+}

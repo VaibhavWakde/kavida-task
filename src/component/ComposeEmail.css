@@ -1,0 +1,119 @@
+hr{
+    margin: 8px -15px;
+}
+.email-to{
+    width: 100%;
+
+}
+
+.email-to h4, .email-cc h4, .email-subject h4{
+    position:absolute;
+    font-size: 12px;
+    margin-top: 3px;
+    font-weight: 500;
+    color: black;
+}
+
+.email-to input, .email-cc input, .email-subject input{
+    width: 80%;
+    border: none !important;
+    outline: none !important;
+    padding-left: 80px;
+    font-size: 12px;
+    font-weight: 400;
+    color: grey;
+}
+
+.email-to input:focus, .email-cc input:focus, .email-subject input:focus{
+    outline: none !important;
+}
+
+.email-content{
+    height: 150px;
+    margin: 0;
+}
+
+.fill-in-form{
+    margin-top: 5px;
+    width: 130px;
+    height: 30px;
+    border:2px solid rgb(4, 141, 253);
+    border-radius: 4px;
+    color: rgb(4, 141, 253);
+    padding: 6px 15px;
+}   
+
+.fill-in-form i{
+    margin: 0;
+    padding: 0;
+}
+
+.fill-in-form p{
+    font-size: 13px;
+    color: rgb(4, 141, 253);
+    margin-left: 4px;
+    font-weight: 500;
+}
+
+.email-content p{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(70, 68, 68);
+}
+
+hr.full{
+    margin-left: 3px;
+    width: 35%;
+}
+
+.email-regards h3{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.email-regards p{
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.email-autofill-option{
+    width: 150px;
+    height: 30px;
+    border: 1px solid rgb(194, 191, 191);
+    background-color: white;
+    border-radius: 15px;
+    padding: 4px;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-size: 10px;
+    color: rgb(58, 57, 57);
+}
+
+.email-autofill-option p{
+    font-size: 10px;
+    color: rgb(58, 57, 57);
+}
+
+p{
+    margin: 0;
+}
+
+.email-footer{
+    margin-top: 10px;
+}
+
+.send-email-btn{
+    width: 100px;
+    height: 33px;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 13px;
+}
+
+.text-style-container i{
+    margin-top: 5px;
+    margin-right: 15px;
+    color: rgb(65, 62, 62);
+}
