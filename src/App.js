@@ -8,11 +8,7 @@ import WhatsappCard from './component/WhatsappCard';
 function App() {
   return (
     <>
-    {/* <ComposeEmail/> */}
       <Home/>
-      {/* <EmailCard />
-      <WhatsappCard /> */}
-      {/* <Demo/> */}
     </>
   );
 }
