@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kavida-task/static/css/main.5d12792d.css",
+    "main.js": "/kavida-task/static/js/main.f49194b4.js",
+    "static/js/787.75425e33.chunk.js": "/kavida-task/static/js/787.75425e33.chunk.js",
+    "index.html": "/kavida-task/index.html",
+    "main.5d12792d.css.map": "/kavida-task/static/css/main.5d12792d.css.map",
+    "main.f49194b4.js.map": "/kavida-task/static/js/main.f49194b4.js.map",
+    "787.75425e33.chunk.js.map": "/kavida-task/static/js/787.75425e33.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d12792d.css",
+    "static/js/main.f49194b4.js"
+  ]
+}
