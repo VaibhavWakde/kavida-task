@@ -8,6 +8,7 @@ export default function Home() {
     const [searchValue, setSearchValue] = useState([])
     const [value, setValue] = useState("");
     const [showDetails, setShowDetails] = useState(false)
+    const [fetchData, setFetchData] = React.useState()
 
     const sidebarData = [
         {
@@ -38,6 +39,32 @@ export default function Home() {
             pnumber: "(+94)(011)2449834"
         },
     ]
+    
+    
+      // fetched data from API
+
+    useEffect(() => {
+
+        const api = () => {
+            if (apiResponse.meta.status == 200) {
+                async function fetchapi() {
+                    const api = await `https://api.testing.com/dev/retrieveMessage`
+                    axios.get(api)
+                        .then(res => {
+                            const result = res.data;
+                            setFetchData(result)
+                        })
+
+                    const a = {name:"abc"};
+                    axois.post('https://api.testing.com/dev/retrieveMessage',a)
+                        .then(res => setFetchData(res.data))
+                }
+                fetchapi();
+            }
+        }
+        api();
+
+    },[])
 
     const onChange = (event) => {
         setValue(event.target.value);
